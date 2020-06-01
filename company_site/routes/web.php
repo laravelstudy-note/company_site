@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'TopPageController@show');
+Route::get('/about', 'AboutPageController@show');

@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
-
+@include("parts.common")
 @include("parts.header")
 
 <main>
