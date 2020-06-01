@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 </head>
 <body>
 
-<header>
-	<h1>Company Site</h1>
-	<nav>
-		<a href="/">トップ</a>
-	</nav>
-</header>
+@include("parts.header")
 
-<h1>これはトップページです</h1>
+<main>
+	<h1>これはトップページです</h1>
+</main>
 
-<footer>
-	&copyright; 2020 XXXX
-</footer>
+@include("parts.footer")
 
 </body>
 </html>
